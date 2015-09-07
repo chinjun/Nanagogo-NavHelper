@@ -86,6 +86,6 @@ $(function() {
   $.each(team_select, function(member, data) {
     $('<li></li>')
       .append('<a href="' + data['url'] + '" target="_parent">' + member + '</a>')
-      .appendTo('.48g-list');
+      .appendTo('.list-48g');
   });
 });

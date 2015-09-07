@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Nanagogo Friendly Nav(Nogizaka46)",
-  "description": "Nogizaka46 friendly navigation in 755(7gogo)",
-  "version": "1.0.6",
+  "name": "Nanagogo Friendly Nav(48G)",
+  "description": "48G friendly navigation in 755(7gogo)",
+  "version": "1.0.6a",
   "permissions": [
     "http://7gogo.jp/*"
   ],

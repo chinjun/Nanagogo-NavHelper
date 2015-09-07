@@ -76,7 +76,7 @@ var page_title = 'AKB48'
 var team_select = nanagogo_teama
 
 $(function() {
-  var nav = $('<div class="left-contents"><p class="title-48g">' + page_title + '</p><ul class="48g-list"></ul></div>');
+  var nav = $('<div class="left-contents"><p class="title-48g">' + page_title + '</p><ul class="list-48g"></ul></div>');
   var main = $('body').children();
 
   main.css('margin-left', '100px');

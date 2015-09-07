@@ -48,21 +48,21 @@
   padding: 7px 0 7px 10px;
 }
 
-.48g-list {
+.list-48g {
   list-style: none;
   height: 100%;
 }
 
-.48g-list li:nth-child(odd) {
+.list-48g li:nth-child(odd) {
   background: #eae9e8;
 }
 
-.48g-list li a {
+.list-48g li a {
   display: block;
   padding: 7px 0 7px 15px;
   text-decoration: none;
 }
 
-.48g-list li a:hover {
+.list-48g li a:hover {
   background: #bc8dc4;
 }

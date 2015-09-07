@@ -38,3 +38,30 @@
 .nogi-list li a:hover {
   background: #bc8dc4;
 }
+
+.title-48g {
+  background: #812990;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px 0 7px 10px;
+}
+
+.48g-list {
+  list-style: none;
+  height: 100%;
+}
+
+.48g-list li:nth-child(odd) {
+  background: #eae9e8;
+}
+
+.48g-list li a {
+  display: block;
+  padding: 7px 0 7px 15px;
+  text-decoration: none;
+}
+
+.48g-list li a:hover {
+  background: #bc8dc4;
+}

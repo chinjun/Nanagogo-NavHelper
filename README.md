@@ -39,3 +39,4 @@ This project is derived from hachy's [Nanagogo-FriendlyNav](https://github.com/h
   * Allow users to toggle between English and Japanese names
   * Create a background page to track persistent options (like English vs. Japanese)
   * Add a Japanese readme
+  * Make scrolling not ugly, and re-enable it.

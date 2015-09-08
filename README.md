@@ -4,17 +4,17 @@ This project is derived from hachy's [Nanagogo-FriendlyNav](https://github.com/h
 
 Installation:
 
-  *Download the ZIP file, extract it somewhere easy to find. 
-  *Go to your chrome://extensions page, make sure Developer mode is enabled
-  *Click "Load unpacked extension", find and select the Nanagogo-NavHelper folder you just created, and click Open
-  *In the future, a *.crx file will be made available to simplify this step.
+  * Download the ZIP file, extract it somewhere easy to find. 
+  * Go to your chrome://extensions page, make sure Developer mode is enabled
+  * Click "Load unpacked extension", find and select the Nanagogo-NavHelper folder you just created, and click Open
+  * In the future, a *.crx file will be made available to simplify this step.
 
 
 Updating (Currently):
 
-  *Download a new ZIP file.
-  *Extract the contents in the same location, so that the new files overwrite the old.
-  *Go to chrome://extensions, find Nanagogo-NavHelper in the list, and click Reload
+  * Download a new ZIP file.
+  * Extract the contents in the same location, so that the new files overwrite the old.
+  * Go to chrome://extensions, find Nanagogo-NavHelper in the list, and click Reload
 
 
 Usage:
@@ -29,10 +29,10 @@ Issues:
 
 Todo:
 
-  *Incorporate group pages
-  *Add Team B, Team 4, SKE48, NMB48, HKT48
-  *Decide how to deal with Kennin (as it is, both concurrent teams will expand if on a Kennin's page)
-  *Verify that all links go to the correct members' pages
-  *Decide how to deal with Nogizaka46
-  *Just generally make the code more functional and less procedural, perhaps by adding additional information to the member data structure and iterating over that.
-  *Highlight the currently open member's name.
+  * Incorporate group pages
+  * Add Team B, Team 4, SKE48, NMB48, HKT48
+  * Decide how to deal with Kennin (as it is, both concurrent teams will expand if on a Kennin's page)
+  * Verify that all links go to the correct members' pages
+  * Decide how to deal with Nogizaka46
+  * Just generally make the code more functional and less procedural, perhaps by adding additional information to the member data structure and iterating over that.
+  * Highlight the currently open member's name.

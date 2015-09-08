@@ -1,10 +1,10 @@
 .left-contents {
-  background: #f4f3f0;
-  border-right: 1px solid #e5e4e0;
+  background: #f4f3f0; /* barely off-white */
+  border-right: 1px solid #e5e4e0; /* slightly darker off-white */
   color: #000;
   font-size: 12px;
   height: 100%;
-  overflow: auto;
+  overflow: hidden; /* to do: format scroll bar to be less ugly */
   position: fixed;
   top: 0;
   left: 0;
@@ -40,29 +40,71 @@
 }
 */
 
-.title-48g {
-  background: #812990;
+.group48.akb48 {
+  background: #FF47A3;
+}
+
+.group48 {
   color: white;
   font-size: 14px;
   font-weight: bold;
-  padding: 7px 0 7px 10px;
+  padding: 7px 0 7px 7px;
 }
 
-.list-48g {
+.team48.teama {
+  background: #FD8EB3;
+}
+
+.team48.teamk {
+  background: #64B000;
+}
+
+.team48.teamb {
+  background: #26A6E0;
+}
+
+.team48.team4 {
+  background: #FCC300;
+}
+
+.team48{
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px 0 7px 14px;
+  width: 100px;
+  display: none;
+}
+
+.list48 {
   list-style: none;
   height: 100%;
+  width: 100px;
+  display: none;
 }
 
-.list-48g li:nth-child(odd) {
+.list48 li:nth-child(odd) {
   background: #eae9e8;
 }
 
-.list-48g li a {
+.list48 li a {
   display: block;
-  padding: 7px 0 7px 15px;
+  padding: 7px 0 7px 21px;
   text-decoration: none;
 }
 
-.list-48g li a:hover {
-  background: #bc8dc4;
+.list48.teama li a:hover {
+  background: #f596b4;
+}
+
+.list48.teamk li a:hover {
+  background: #83C033;
+}
+
+.list48.teamb li a:hover {
+  background: #51B8E6;
+}
+
+.list48.team4 li a:hover {
+  background: #FDCF33;
 }

@@ -1,6 +1,6 @@
 # Nanagogo Nav Helper (48G)
 
-This is a Chrome extension that adds a side bar to 755, allowing easy navigation between 48G member 755 pages. The project is derived from hachy's [Nanagogo-FriendlyNav](https://github.com/hachy/Nanagogo-FriendlyNav), which provides similar functionality for Nogizaka46 members.
+This is a Chrome extension that adds a side bar to the 755 web app, allowing easy navigation between 48G member 755 pages. The project is derived from hachy's [Nanagogo-FriendlyNav](https://github.com/hachy/Nanagogo-FriendlyNav), which provides similar functionality for Nogizaka46 members.
 
 **Installation:**
 

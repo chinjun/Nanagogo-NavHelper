@@ -36,3 +36,6 @@ This project is derived from hachy's [Nanagogo-FriendlyNav](https://github.com/h
   * Decide how to deal with Nogizaka46
   * Just generally make the code more functional and less procedural, perhaps by adding additional information to the member data structure and iterating over that.
   * Highlight the currently open member's name.
+  * Allow users to toggle between English and Japanese names
+  * Create a background page to track persistent options (like English vs. Japanese)
+  * Add a Japanese readme

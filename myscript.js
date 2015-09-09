@@ -181,6 +181,7 @@ $(function() {
     if (akb48_open === true) { 
       $(".list48.akb48").slideUp();
       $(".team48.akb48").slideUp();
+      akb48_open = false;
     }
     else { 
       $(".team48.akb48").slideDown();

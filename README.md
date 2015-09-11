@@ -9,6 +9,7 @@ As of version 0.2.0, all AKB48 and NMB48 members are available, except obviously
   * Go to [Releases](https://github.com/wlerin/Nanagogo-NavHelper/releases), 
   * Right click on the latest `.crx` file and choose 'save link as', save it somewhere easy to find
   * Go to your chrome://extensions page, then find the file on your hard drive and drag it onto the extensions page
+  * When a newer version is available, repeat the above steps to update.
 
 **Alternative Installation**
 
@@ -16,13 +17,11 @@ As of version 0.2.0, all AKB48 and NMB48 members are available, except obviously
   * Go to your chrome://extensions page, make sure Developer mode is enabled
   * Click "Load unpacked extension", find and select the Nanagogo-NavHelper folder you just created, and click Open
 
-
-**Updating (Currently):**
+**Updating (Alternative):**
 
   * Download a new ZIP file.
   * Extract the contents in the same location, so that the new files overwrite the old.
   * Go to chrome://extensions, find Nanagogo-NavHelper in the list, and click Reload
-
 
 **Usage:**
 

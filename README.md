@@ -2,6 +2,8 @@
 
 This is a Chrome extension that adds a side bar to the 755 web app, allowing easy navigation between 48G member 755 pages. The project is derived from hachy's [Nanagogo-FriendlyNav](https://github.com/hachy/Nanagogo-FriendlyNav), which provides similar functionality for Nogizaka46 members.
 
+As of version 0.2.0, all AKB48 and NMB48 members are available, except obviously those who have no 755 page.
+
 **Installation:**
 
   * Download the ZIP file, extract it somewhere easy to find. 
@@ -21,22 +23,32 @@ This is a Chrome extension that adds a side bar to the 755 web app, allowing eas
 
   This extension will add a sidebar to all 755 pages. If you are on a member's page, that sidebar will automatically expand to show the rest of her team. Otherwise, simply click on a group and then on a team to show the members of that team, and click on a name to visit her page.
 
-![screenshots1](http://i.imgur.com/uFlURIk.jpg)
+![screenshots1](http://puu.sh/k79hi/7b6221c91e.jpg)
 
-**Issues:**
+**Known Issues:**
 
-  Currently, only AKB48 Team A and Team K members are available. Furthermore, scrolling has been disabled so if your screen is too short, some members may be cut off.
+  * Currently, SKE48, HKT48, and NGT48 members are not available.
+  * A horizontal scrollbar appears at the bottom of the sidebar for some as-yet undetermined reason.
 
 **Todo:**
 
+  * Add SKE48, HKT48, NGT48
   * Incorporate group pages
-  * Add Team B, Team 4, SKE48, NMB48, HKT48
   * Decide how to deal with Kennin (as it is, both concurrent teams will expand if on a Kennin's page)
-  * Verify that all links go to the correct members' pages
   * Decide how to deal with Nogizaka46
-  * Just generally make the code more functional and less procedural, perhaps by adding additional information to the member data structure and iterating over that.
-  * Highlight the currently open member's name.
-  * Allow users to toggle between English and Japanese names
-  * Create a background page to track persistent options (like English vs. Japanese)
+  * Verify that all links go to the correct members' pages
+  * Improve efficiency, readability of code
+  * Allow users to choose between English or Japanese, full names or nicknames.
+  * Sort names according to the variant selected
+  * Add an options menu, track choices using chrome storage
   * Add a Japanese readme
-  * Make scrolling not ugly, and re-enable it.
+  * Eliminate horizontal scrollbar
+  * Make highlighting a jQuery mouseover event rather than using CSS hover
+  * Dreaming: Add other Social Media sites
+
+**Added in 0.2.0**
+
+  * All of AKB48 and NMB48 are now available
+  * The current member's name will now be highlighted in her team colour.
+  * Program data and functionality are now in separate files
+  * Changed how the sidebar is built under the hood, which should make adding teams easier in the future

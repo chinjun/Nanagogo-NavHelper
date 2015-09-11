@@ -37,17 +37,18 @@ As of version 0.2.0, all AKB48 and NMB48 members are available, except obviously
 **Todo:**
 
   * Add SKE48, HKT48, NGT48
-  * Incorporate group pages
-  * Decide how to deal with Kennin (as it is, both concurrent teams will expand if on a Kennin's page)
-  * Decide how to deal with Nogizaka46
+  * Eliminate horizontal scrollbar
   * Verify that all links go to the correct members' pages
-  * Improve efficiency, readability of code
   * Allow users to choose between English or Japanese, full names or nicknames.
   * Sort names according to the variant selected
   * Add an options menu, track choices using chrome storage
   * Add a Japanese readme
-  * Eliminate horizontal scrollbar
+  * Incorporate group pages
+  * Decide how to deal with Kennin (as it is, both concurrent teams will expand if on a Kennin's page)
+  * Decide how to deal with Nogizaka46
+  * Improve efficiency, readability of code
   * Make highlighting a jQuery mouseover event rather than using CSS hover
+  * Load new pages in a separate frame rather than reloading the entire page
   * Dreaming: Add other Social Media sites
 
 **Added in 0.2.0**

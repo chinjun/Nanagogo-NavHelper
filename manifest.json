@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Nanagogo Nav Helper(48G)",
   "description": "48G friendly navigation in 755(7gogo)",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "permissions": [
     "http://7gogo.jp/*"
   ],
@@ -10,7 +10,7 @@
     {
       "all_frames": true,
       "matches": ["http://7gogo.jp/*"],
-      "js": ["jquery.js", "myscript.js"],
+      "js": ["jquery.js", "nanagogo_groups.js", "myscript.js"],
       "css": ["mystyle.css"]
     }
   ]

@@ -4,7 +4,7 @@
   color: #000;
   font-size: 12px;
   height: 100%;
-  overflow: hidden; /* to do: format scroll bar to be less ugly */
+  overflow: auto;
   position: fixed;
   top: 0;
   left: 0;
@@ -40,31 +40,11 @@
 }
 */
 
-.group48.akb48 {
-  background: #FF47A3;
-}
-
 .group48 {
   color: white;
   font-size: 14px;
   font-weight: bold;
   padding: 7px 0 7px 7px;
-}
-
-.team48.teama {
-  background: #FD8EB3;
-}
-
-.team48.teamk {
-  background: #64B000;
-}
-
-.team48.teamb {
-  background: #26A6E0;
-}
-
-.team48.team4 {
-  background: #FCC300;
 }
 
 .team48{
@@ -93,18 +73,31 @@
   text-decoration: none;
 }
 
-.list48.teama li a:hover {
+/* do all of this with mouseover events instead */
+.list48.teama li a:hover, .list48.teama li.highlight {
   background: #f596b4;
 }
 
-.list48.teamk li a:hover {
+.list48.teamk li a:hover, .list48.teamk li.highlight {
   background: #83C033;
 }
 
-.list48.teamb li a:hover {
+.list48.teamb li a:hover, .list48.teamb li.highlight  {
   background: #51B8E6;
 }
 
-.list48.team4 li a:hover {
+.list48.team4 li a:hover, .list48.team4 li.highlight  {
   background: #FDCF33;
+}
+
+.list48.teamn li a:hover, .list48.teamn li.highlight  {
+  background: #FBC733;
+}
+
+.list48.teamm li a:hover, .list48.teamm li.highlight  {
+  background: #E77B8D;
+}
+
+.list48.teambii li a:hover, .list48.teambii li.highlight  {
+  background: #3C5AC3;
 }
